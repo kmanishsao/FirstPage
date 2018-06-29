@@ -18,3 +18,16 @@ body{
     margin: 5 5 5 5;
     align-content:center;
 }
+
+#emphasis{
+    color:red;
+}
+
+.emphasis{
+    color:green;
+}
+
+li:nth-child(3){
+    color: yellow;
+}
+
