@@ -1,24 +1,18 @@
-.wrap{
-    width:auto;
-    margin :auto;
-    background-color: aquamarine;
+body{
+    font-family: sans-serif;
+}
+li{
+    display: inline;
+    padding-right: 10px;
 }
 
-.content{
-    width:80%;
-    background-color: bisque;
-    float: left;
-}
-aside{
-    width:20%;
-    background:brown;
-    float: left;
-}
-aside ul{
-    list-style: none;
-    padding-left: 0;
-}
+ul a{
+    text-decoration: none;
+    color:green;
 
-.content,aside{
-    height: 400px
+}
+ul a:hover{
+    text-decoration: underline;
+    color:blue;
+
 }
