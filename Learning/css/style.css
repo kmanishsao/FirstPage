@@ -58,6 +58,7 @@ body{
 
 footer{
     background-color: #2e384e;
+    height: 30vh;
 }
 
 h2,h3,h4{
@@ -85,24 +86,27 @@ h2,h3,h4{
     color:#2e384e;
 }
 
-
-@media screen and (max-width: 700px) {
- .container{
-     flex-direction: column;
- }
- .threeCol{
-    width:100vw;
- }
- .twoCol{
-     padding-right: 0;
- }
- 
-}
-
 ul li{
     text-decoration: none;
     list-style-type:none;
  
 }
+
+
+@media screen and (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .threeCol{
+        width:100vw;
+    }
+
+    .twoCol{
+        padding-right: 0;
+    }
+ 
+}
+
 
  
