@@ -1,7 +1,40 @@
+header{
+    height:40px;
+    font-family: sans-serif;
+    text-align: center;
+    border:1px solid grey;
+}
+nav li{
+    text-decoration: none;
+    display: inline;
+    padding-right: 10px;
+    border:1px solid grey;
+}
 
-h1{
-    background: url("../img/logo.jpg") no-repeat;
-   text-indent: -9999;
-    width:142px;
-    height: 43px;
+aside{
+    width:20%;
+    float: left;
+    height:400px;
+    border:1px solid grey;
+}
+
+.content{
+    width:59%;
+    float: left;
+    height:400px;
+    border:1px solid grey;
+}
+body{
+    width:90%;
+    margin:auto;
+    height: 400px;;
+}
+right{
+    float:right;
+}
+
+footer{
+    clear: both;
+    min-height: 10px;
+   border:2px solid grey;
 }

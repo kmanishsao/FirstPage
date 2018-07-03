@@ -1,33 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
-    <title>My First Website</title>
+    <title>My First Html Page</title>
 </head>
-<body>
-<div style="margin-left:250px;">
-    <h1>My First Website</h1>
-        <div>Welcome to my website! Here are some things I enjoy. </div>
-            <ul>
-                <li>Web Development </li>
-                <li>Chess</li>
-                <li>Reading</li>
-                <li>Learning</li>
-            </ul>
-            <h2>
-                Favorites Quotes
-            </h2>
 
-            <div class="boxed" align="center">
-                Here is my Favorite quotes of mine ..
+<body>
+    <Header>
+        <div id="headerTop">
+            <div class="socialmedia">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Habitat</a>
+                        </li>
+                        <li>
+                            <a href="#">Helix</a>
+                        </li>
+                        <li>
+                            <a href="#">Sitecore.net</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <br>
-            <div class="boxed" align="center">
-                        ... and another
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Habitat</a>
+                    </li>
+                    <li>
+                        <a href="#">Helix</a>
+                    </li>
+                    <li>
+                        <a href="#">Sitecore.net</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <nav>
+            <div id="navigation-left">
+
             </div>
-</div>
+            <div id="navigation"></div>
+        </nav>
+    </Header>
+    <main>
+        <section>
+            <div>
+                <img src="./img/HeroImage.jpg" alt="Honda City"/>
+            </div>
+        </section>
+        <section class="dvclear">
+            <div  class="twoCol">
+                <img src="./img/Habitat-046-square.jpg" alt="Side Image" class="responsive"/>
+            </div>
+            <div  class="twoCol">
+                <h3>About Habitat</h3>
+                <p>Habitat sites are demonstration sites for the Sitecore® Experience Platform™.
+                        The sites demonstrate the full set of capabilities and potential of the platform through a number of both technical and business scenarios.</p>
+            </div>
+
+        </section>
+        <section class="dvclear">
+            <div class="threeCol">
+                <img src="./img/a.jpg" class="responsive">
+                <h3>Introduction to Habitat</h3>
+                <p>Introduction to Habitat Sitecore Habitat is a range of sites demonstrating the capabilities of the Sitecore
+                    Experience Platform. The solution is built on the Sitecore Helix guidelines, which focuses on increasing
+                    productivity and quality in Sitecore projects.</p>
+            </div>
+            <div class="threeCol">
+                <img src="./img/b.jpg" class="responsive">
+                <h3>Modules</h3>
+                <p>
+                    The Habitat example implementation has a range of modules which covers the basics of a Sitecore website.
+                </p>
+            </div>
+            <div class="threeCol">
+                <img src="./img/c.jpg" class="responsive">
+                <h3>Getting Started</h3>
+                <p>
+                    Sitecore Helix a defined methodology with conventions and practises - Habitat is an example implementation available for
+                    your understanding.
+                </p>
+            </div>
+
+        </section>
+      
+    </main>
+    <footer class="dvclear">
+        <h4>Disclaimer</h4>
+        <p>This Site is for learning purpose</p>
+    </footer>
+
 </body>
+
 </html>

@@ -1,33 +1,70 @@
-a{
-    color:green;
-    text-decoration:none;
+nav ul li{
+    display: inline;
+    font-size: 12px;
+    padding-right: 13px;
+   
 }
 
-h1{
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+img{
+    width:100vw;
+}
+
+.responsive{
+    max-width: 100%;
+}
+
+Header{
+    background-color:#2e384e;    
+    width:100vw;
+    color: white;
+    float: left;
+    height: 20vh;
+}
+
+.threeCol{
+    width:30vw;
+    margin: 3vh 1vh 10vh 0;
+    float: left;
+    font-size: 1em;
+}
+
+.twoCol{
+    width:40vw;
+    margin:1px;
+    float: left;
+    font-size: 1em;
+}
+
+.dvclear{
+    clear:both;
+}
+body{
+    margin : 0;
+    width:100vw;
     font-family: sans-serif;
 }
 
-body{
-  background-color:gainsboro;
+footer{
+    background-color: #2e384e;
 }
 
-.boxed{
-    width: 320px;
-    padding: 10px;
-    border: 2px solid whitesmoke;
-    margin: 5 5 5 5;
-    align-content:center;
+h2,h3,h4{
+    font-weight: 800;
+    font-size: 24px;
+    font-family: inherit;
+    color:inherit;
 }
-
-#emphasis{
-    color:red;
+@media screen and (max-width: 700px) {
+ .twoCol{
+     width: 100vw;
+ }
+ .threeCol{
+    width: 100vw;
+ }
 }
-
-.emphasis{
-    color:green;
-}
-
-li:nth-child(3){
-    color: yellow;
-}
-
