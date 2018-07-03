@@ -13,6 +13,8 @@ li a{
 
 img{
     width:100vw;
+   height: 100vh;
+   border: 1px grey solid;
 }
 
 .responsive{
@@ -28,17 +30,20 @@ Header{
 }
 
 .threeCol{
+    /* git */
+    margin:0 1vw;
     width:30vw;
-    margin: 3vh 1vh 10vh 0;
-    float: left;
-    font-size: 1em;
+    flex-basis: space-between;
+}
+
+.container{
+  display: flex;
+  height: auto;
 }
 
 .twoCol{
-    width:40vw;
-    margin:1px;
-    float: left;
-    font-size: 1em;
+    flex-basis: space-between;
+    padding-right: 5vw;
 }
 
 .dvclear{
@@ -59,12 +64,18 @@ h2,h3,h4{
     font-size: 24px;
     font-family: inherit;
     color:inherit;
+    text-decoration: underline;
+   
 }
 @media screen and (max-width: 700px) {
- .twoCol{
-     width: 100vw;
+ .container{
+     flex-direction: column;
  }
  .threeCol{
-    width: 100vw;
+    width:100vw;
  }
+ .twoCol{
+     padding-right: 0;
+ }
+ 
 }
